@@ -1,0 +1,25 @@
+{
+    "name": "spl",
+    "displayName": "SPL",
+    "description": "SPL Programming Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "spl",
+            "aliases": ["SPL Programming Language", "spl"],
+            "extensions": [".spl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "spl",
+            "scopeName": "source.spl",
+            "path": "./syntaxes/spl.tmLanguage.json"
+        }]
+    }
+}
